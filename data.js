@@ -1,0 +1,218 @@
+
+const recipes = [
+{
+    name: "Easy chicken fajitas",
+    description: "Need a simple, vibrant midweek meal the family will love? Put together these easy chicken fajitas and people can create their own masterpieces at the table",
+    calories: 723,
+    image: "https://media.istockphoto.com/photos/mexican-grilled-chicken-fajitas-in-iron-skillet-picture-id507532058?k=20&m=507532058&s=612x612&w=0&h=AjjHSgka2umH7Lcyt0fP5fPwH4cokXUnXlzWkgu86FQ=",
+    ingredients: [
+        "2 large chicken breasts, finely sliced",
+        "1 red onion, finely sliced",
+        "1 red pepper, sliced",
+        "1 red chilli, finely sliced (optional)",
+        "1 heaped tbsp smoked paprika",
+        "1 tbsp ground coriander",
+        "pinch of ground cumin",
+        "2 medium garlic cloves, crushed",
+        "4 tbsp olive oil",
+        "1 lime, juiced",
+        "4-5 drops Tabasco",
+        "6 medium tortillas",
+        "bag mixed salad",
+        "230g tub fresh salsa",
+
+    ],
+    steps: [
+        "Heat oven to 200C/180C fan/gas 6 and wrap 6 medium tortillas in foil.",
+        "Mix 1 heaped tbsp smoked paprika, 1 tbsp ground coriander, a pinch of ground cumin, 2 crushed garlic cloves, 4 tbsp olive oil, the juice of 1 lime and 4-5 drops Tabasco together in a bowl with a big pinch each of salt and pepper.",
+        "Stir 2 finely sliced chicken breasts, 1 finely sliced red onion, 1 sliced red pepper and 1 finely sliced red chilli, if using, into the marinade.",
+        "Heat a griddle pan until smoking hot and add the chicken and marinade to the pan.",
+        "Keep everything moving over a high heat for about 5 mins using tongs until you get a nice charred effect. If your griddle pan is small you may need to do this in two batches.",
+        "To check the chicken is cooked, find the thickest part and tear in half – if any part is still raw cook until done.",
+        "Put the tortillas in the oven to heat up and serve with the cooked chicken, a bag of mixed salad and one 230g tub of fresh salsa.",
+       
+    ],
+    category: "Entrée"
+},
+{
+    name: "Easy teriyaki chicken",
+    description: "Try this easy, sticky Asian-style teriyaki chicken for a speedy weeknight supper – it takes just 20 minutes to make! Serve it with sticky rice and steamed greens",
+    calories: 243,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo6SlEH63WLewGt6T_qTb6RIQjCLVEfgA7lQ&usqp=CAU",
+    ingredients: [
+        "2 tbsp toasted sesame oil",
+        "6 skinless and boneless chicken thighs, sliced",
+        "2 large garlic cloves, crushed",
+        "1 thumb-sized piece ginger, grated",
+        "50g runny honey",
+        "30ml light soy sauce",
+        "1 tbsp rice wine vinegar",
+        "1 tbsp sesame seeds , to serve",
+        "4 spring onions, shredded, to serve",
+        "sticky rice, to serve",
+        "steamed bok choi or spring greens, to serve"
+    ],
+    steps: [
+        "Heat the oil in a non-stick pan over a medium heat. Add the chicken and fry for 7 mins, or until golden. Add the garlic and ginger and fry for 2 mins.",
+        "Stir in the honey, soy sauce, vinegar and 100ml water. Bring to the boil and cook for 2 - 5 mins over a medium heat until the chicken is sticky and coated in a thick sauce.",
+        "Scatter over the spring onions and sesame seeds, then serve the chicken with the rice and steamed veg.",
+       
+    ],
+    category:"Main" 
+},
+{
+    name: "Chilli con carne",
+    description: "This great chilli recipe has to be one of the best dishes to serve to friends for a casual get-together. An easy sharing favourite that uses up storecupboard ingredients.",
+    calories: 387,
+    image: "https://media.istockphoto.com/photos/homemade-organic-vegetarian-chili-picture-id486539406?k=20&m=486539406&s=612x612&w=0&h=GyGu_Cgl-ApGTJTOqp1xLjPaEgtLcTp4X1qLQ3lE4Qk=",
+    ingredients: [
+        "1 large onion",
+        "1 red pepper",
+        "2 garlic cloves",
+        "1 tbsp oil",
+        "1 heaped tsp hot chilli powder (or 1 level tbsp if you only have mild)",
+        "1 tsp paprika",
+        "1 tsp ground cumin",
+        "500g lean minced beef",
+        "400g can chopped tomatoes",
+        "½ tsp dried marjoram",
+        "1 tsp sugar (or add a thumbnail-sized piece of dark chocolate along with the beans instead, see tip)",
+        "2 tbsp tomato purée",
+        "410g can red kidney beans",
+        "plain boiled long grain rice , to serve",
+        "soured cream , to serve",
+    ],
+    steps: [
+        "Prepare your vegetables. Chop 1 large onion into small dice",
+        "Cut 1 red pepper in half lengthways, remove stalk and wash the seeds away, then chop. Peel and finely chop 2 garlic cloves.",
+        "Start cooking. Put your pan on the hob over a medium heat. Add 1 tbsp oil and leave it for 1-2 minutes until hot",
+        "Add the onion and cook, stirring fairly frequently, for about 5 minutes, or until the onion is soft, squidgy and slightly translucent.",
+        "Tip in the garlic, red pepper, 1 heaped tsp hot chilli powder or 1 level tbsp mild chilli powder, 1 tsp paprika and 1 tsp ground cumin.",
+        "Give it a good stir, then leave it to cook for another 5 minutes, stirring occasionally.",
+        "Brown 500g lean minced beef. Turn the heat up a bit, add the meat to the pan and break it up with your spoon or spatula.",
+        "Keep stirring for at least 5 minutes. Make sure you keep the heat hot enough for the meat to fry and become brown, rather than just stew.",
+        "Make the sauce. Crumble 1 beef stock cube into 300ml hot water. Pour this into the pan with the mince mixture.",
+        "Add a 400g can of chopped tomatoes. Tip in ½ tsp dried marjoram, 1 tsp sugar and add a good shake of salt and pepper. Squirt in about 2 tbsp tomato purée and stir the sauce well.",
+        "Simmer it gently. Bring the whole thing to the boil, give it a good stir and put a lid on the pan. Turn down the heat until it is gently bubbling and leave it for 20 minutes.",
+        "Check on the pan occasionally to stir it and make sure the sauce doesn’t catch on the bottom of the pan. After simmering gently, the saucy mince mixture should look thick, moist and juicy.",
+        "Drain and rinse a 410g can of red kidney beans in a sieve and stir them into the chilli pot. Bring to the boil again, and gently bubble without the lid for another 10 minutes.",
+        "Taste a bit of the chilli and season. It will probably take a lot more seasoning than you think.",
+        "Now replace the lid, turn off the heat and leave your chilli to stand for 10 minutes before serving. This is really important as it allows the flavours to mingle.",
+        "Serve with soured cream and plain boiled long grain rice.",
+       
+    ],
+    category:"Main" 
+},
+{
+    name: "Chocolate brownie cake",
+    description: "Get kids cooking at the weekend by baking this yummy brownie cake, much better than shop bought",
+    calories: 500,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR11wJJTV7-9FiZ3nRLdCsHQlHvy-tXWRV8VQ&usqp=CAU",
+    ingredients: [
+        "100g butter",
+        "125g caster sugar",
+        "75g light brown or muscovado sugar",
+        "125g plain chocolate (plain or milk)",
+        "1 tbsp golden syrup",
+        "2 eggs",
+        "1 tsp vanilla extract/essence",
+        "100g plain flour",
+        "½ tsp baking powder",
+        "2 tbsp cocoa powder",
+    ],
+    steps: [
+        "Heat oven to 180C/fan 160C/gas 4. Grease and line a 20cm cake tin.",
+        "Place the butter, caster sugar, brown sugar, chocolate and golden syrup in the pan and melt gently on a low heat until it is smooth and lump-free.",
+        "Remove the pan from the heat.",
+        "Break the eggs into the bowl and whisk with the fork until light and frothy. 5 Add the eggs, vanilla extract or essence, flour, baking powder and cocoa powder to the chocolate mixture and mix thoroughly.",
+        "Put the mixture into the greased and lined cake tin and place on the middle shelf of the oven. Bake for 25-30 mins.",
+        "Serve with cream or ice cream and plenty of fresh fruit.",
+    ],
+    category:"Dessert" 
+},
+{
+    name: "Carrot cake",
+    description: "Delight friends with an afternoon tea that includes this easy carrot cake. You can bake the cake, freeze it and just drizzle over the icing on the day",
+    calories: 265,
+    image: "https://st2.depositphotos.com/3302361/6176/i/600/depositphotos_61769729-stock-photo-carrot-cake-with-walnuts-prunes.jpg",
+    ingredients: [
+        "175g light muscovado sugar",
+        "175ml sunflower oil",
+        "3 large eggs, lightly beaten",
+        "140g grated carrot (about 3 medium)",
+        "100g raisins",
+        "1 large orange, zested",
+        "175g self-raising flour",
+        "1 tsp bicarbonate of soda",
+        "½ tsp grated nutmeg (freshly grated will give you the best flavour)",
+        "175g icing sugar",
+        "1½-2 tbsp orange juice",
+    ],
+    steps: [
+        "Heat the oven to 180C/160C fan/gas 4. Oil and line the base and sides of an 18cm square cake tin with baking parchment.",
+        "Tip the sugar, sunflower oil and eggs into a big mixing bowl. Lightly mix with a wooden spoon. Stir in the carrots, raisins and orange zest.",
+        "Sift the flour, bicarbonate of soda, cinnamon and nutmeg into the bowl. Mix everything together, the mixture will be soft and almost runny.",
+        "Pour the mixture into the prepared tin and bake for 40-45 mins or until it feels firm and springy when you press it in the centre.",
+        "Cool in the tin for 5 mins, then turn it out, peel off the paper and cool on a wire rack. (You can freeze the cake at this point if you want to serve it at a later date.)",
+        "Beat the icing sugar and orange juice in a small bowl until smooth, you want the icing about as runny as single cream. Put the cake on a serving plate and drizzle the icing back and forth in diagonal lines over the top.",
+    ],
+    category:"Dessert" 
+},
+{
+    name: "Falafel burgers",
+    description: "A healthy burger that's filling too. These are great for anyone after a satisfying bite low in calories.",
+    calories: 161,
+    image: "https://st3.depositphotos.com/1364913/12651/i/600/depositphotos_126516920-stock-photo-homemade-falafel-burger.jpg",
+    ingredients: [
+        "400g can chickpeas, rinsed and drained",
+        "1 small red onion, roughly chopped",
+        "3 large eggs, lightly beaten",
+        "1 garlic clove, chopped",
+        "handful of flat-leaf parsley or curly parsley",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "½ tsp harissa paste or chilli powder",
+        "2 tbsp plain flour",
+        "2 tbsp sunflower oil",
+        "toasted pitta bread or burger buns, to serve",
+        "200g tub tomato salsa, to serve",
+        "green salad, to serve",
+       
+    ],
+    steps: [
+        "Drain the chickpeas and pat dry with kitchen paper. Tip into a food processor along with the onion, garlic, parsley, cumin, coriander, harissa paste, flour and a little salt. Blend until fairly smooth, then shape into four patties with your hands.",
+        "Heat the sunflower oil in a non-stick frying pan, and fry the burgers for 3 mins on each side until lightly golden. Serve with the toasted pitta bread, tomato salsa and green salad.",
+    ],
+    category:"Vegetarian" 
+},
+{
+    name: "Spiced carrot & lentil soup",
+    description: "A delicious, spicy blend packed full of iron and low in fat to boot. It's ready in under half an hour, or can be made in a slow cooker",
+    calories:  238,
+    image: "https://thumbs.dreamstime.com/b/pumpkin-carrot-soup-cream-seeds-parsley-pumpkin-carrot-soup-cream-seeds-parsley-top-view-99363812.jpg",
+    ingredients: [
+        "2 tsp cumin seeds",
+        "pinch chilli flakes",
+        "3 large eggs, lightly beaten",
+        "2 tbsp olive oil",
+        "600g carrots, washed and coarsely grated (no need to peel)",
+        "140g split red lentils",
+        "1l hot vegetable stock (from a cube is fine)",
+        "125ml milk",
+        "plain yogurt and naan bread, to serve",
+       
+    ],
+    steps: [
+        "Heat a large saucepan and dry-fry 2 tsp cumin seeds and a pinch of chilli flakes for 1 min, or until they start to jump around the pan and release their aromas.",
+        "Scoop out about half with a spoon and set aside. Add 2 tbsp olive oil, 600g coarsely grated carrots, 140g split red lentils, 1l hot vegetable stock and 125ml milk to the pan and bring to the boil.",
+        "Simmer for 15 mins until the lentils have swollen and softened.",
+        "Whizz the soup with a stick blender or in a food processor until smooth (or leave it chunky if you prefer).",
+        "Season to taste and finish with a dollop of plain yogurt and a sprinkling of the reserved toasted spices. Serve with warmed naan breads.",
+    ],
+    category:"Vegetarian" 
+},
+]
+
+
+
+module.exports = {recipes}
